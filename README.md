@@ -11,7 +11,10 @@ Task 2: Create a RecyclerView
 
 Task 3: Make the list interactive
 ![Screenshot Dashboard Oracle](images/task3.jpg)
+<<<<<<< HEAD
 
 7. Coding challenges
 <img src="images/codchal1.jpg" alt="drawing" width="200"/>
 <img src="images/codchal2.jpg" alt="drawing" width="200"/>
+=======
+>>>>>>> 49c4ba0d9c6bb44a606102748ce7022f09967df5
