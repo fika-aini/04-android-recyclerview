@@ -2,8 +2,6 @@ package jti.rofika.a04androidrecyclerview;
 
 import android.os.Bundle;
 
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 
@@ -17,7 +15,6 @@ import jti.rofika.a04androidrecyclerview.databinding.ActivityMainBinding;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.Toast;
 
 import java.util.LinkedList;
 
@@ -64,20 +61,6 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
         // Give the recycler view a default layout manager.
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-        Button reset = (Button) findViewById(R.id.reset);
-        reset.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mWordList.clear();
-                // add default items again
-                for (int i = 0; i < 20; i++) {
-                    mWordList.addLast("Word " + i);
-                }
-                mAdapter.notifyDataSetChanged();
-
-            }
-        });
     }
 
     @Override
@@ -97,7 +80,13 @@ public class MainActivity extends AppCompatActivity {
         // This comment suppresses the Android Studio warning about simplifying
         // the return statements.
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_reset) {
+            mWordList.clear();
+            // add default items again
+            for (int i = 0; i < 20; i++) {
+                mWordList.addLast("Word " + i);
+            }
+            mAdapter.notifyDataSetChanged();
             return true;
         }
 
