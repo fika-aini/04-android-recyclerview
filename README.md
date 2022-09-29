@@ -4,17 +4,14 @@ Kelas: TI-2B
 
 Hasil Praktikum
 Task 1: Create a new project and dataset
-![Screenshot Dashboard Oracle](images/task1.png)
+<img src="images/task1.png" alt="drawing" width="200"/>
 
 Task 2: Create a RecyclerView
-![Screenshot Dashboard Oracle](images/task2.jpg)
+<img src="images/task2.jpg" alt="drawing" width="200"/>
 
 Task 3: Make the list interactive
-![Screenshot Dashboard Oracle](images/task3.jpg)
-<<<<<<< HEAD
+<img src="images/task3.jpg" alt="drawing" width="200"/>
 
 7. Coding challenges
 <img src="images/codchal1.jpg" alt="drawing" width="200"/>
 <img src="images/codchal2.jpg" alt="drawing" width="200"/>
-=======
->>>>>>> 49c4ba0d9c6bb44a606102748ce7022f09967df5
