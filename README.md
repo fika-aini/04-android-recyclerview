@@ -15,3 +15,7 @@ Task 3: Make the list interactive
 7. Coding challenges
 <img src="images/codchal1.jpg" alt="drawing" width="200"/>
 <img src="images/codchal2.jpg" alt="drawing" width="200"/>
+
+11. Homework
+<img src="images/homework1.jpg" alt="drawing" width="200"/>
+<img src="images/homework2.jpg" alt="drawing" width="200"/>
