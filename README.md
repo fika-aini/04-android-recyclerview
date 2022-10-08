@@ -12,9 +12,13 @@ Task 2: Create a RecyclerView
 Task 3: Make the list interactive
 <img src="images/task3.jpg" alt="drawing" width="200"/>
 
-7. Coding challenges
+7. Coding challenges (1)
 <img src="images/codechal1.jpg" alt="drawing" width="200"/>
 <img src="images/codechal2.jpg" alt="drawing" width="200"/>
+
+Coding challenges (2)
+<img src="images/lazyload1.jpg" alt="drawing" width="200"/>
+<img src="images/lazyload2.jpg" alt="drawing" width="200"/>
 
 11. Homework
 <img src="images/homework1.jpg" alt="drawing" width="200"/>

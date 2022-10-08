@@ -50,7 +50,8 @@ public class WordListAdapter extends
 
         public WordViewHolder(View itemView, WordListAdapter adapter) {
             super(itemView);
-            wordItemView = itemView.findViewById(R.id.word);
+            //wordItemView = itemView.findViewById(R.id.word);
+            wordItemView = itemView.findViewById(R.id.listItem);
             this.mAdapter = adapter;
             itemView.setOnClickListener(this);
         }

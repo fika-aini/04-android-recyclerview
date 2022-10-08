@@ -7,10 +7,10 @@
     android:padding="6dp">
 
     <TextView
-        android:id="@+id/word"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+    android:id="@+id/listItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:text="Item X" />
 
 </LinearLayout>
